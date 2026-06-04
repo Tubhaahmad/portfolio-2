@@ -1,16 +1,50 @@
-# React + Vite
+# Portfolio 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A personal portfolio showcasing three frontend development projects. The design takes a creative, editorial direction inspired by document and archive aesthetics.
 
-Currently, two official plugins are available:
+## <img width="1456" height="734" alt="Screenshot 2026-06-04 at 23 43 32" src="https://github.com/user-attachments/assets/1861df64-da85-44f0-a277-9bcd854e4a41" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
+- [Production deploy](https://portfolio-2-tau-six.vercel.app/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- React
+- Tailwind CSS v4
+- Vite
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Pages
+- **Home** — Hero with folder document, about section, skill icons, project cards
+- **CSS Frameworks CA** — Article page with project details
+- **JS Frameworks CA** — Article page with project details
+- **Semester Project 2 (Artevia)** — Article page with project details
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Tubhaahmad/portfolio-2.git
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+## Contact
+
+[My LinkedIn page](https://www.linkedin.com/in/toubha-a-292177337/)
+
+## Acknowledgments
+
+Built as part of the Portfolio 2  assignment at Noroff School of Technology and Digital Media.
+
+## Authors
+- Tubha Ahmad(@Tubhaahmad)
+
