@@ -17,10 +17,10 @@ A personal portfolio showcasing three frontend development projects. The design 
 
 
 Pages
-- **Home** — Hero with folder document, about section, skill icons, project cards
-- **CSS Frameworks CA** — Article page with project details
-- **JS Frameworks CA** — Article page with project details
-- **Semester Project 2 (Artevia)** — Article page with project details
+- **Home** - Hero with folder document, about section, skill icons, project cards
+- **CSS Frameworks CA** - Article page with project details
+- **JS Frameworks CA** - Article page with project details
+- **Semester Project 2 (Artevia)** - Article page with project details
 
 ## Getting Started
 
