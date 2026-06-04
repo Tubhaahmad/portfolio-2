@@ -1,8 +1,37 @@
 @import "tailwindcss";
 
 @theme {
-  --color-dark: #4e0119;
+  --color-dark: #3d0012;
   --color-pink: #bf7e84;
   --color-yellow: #ebdd91;
-  --color-bg: #faf4d4;
+  --color-bg: #0f0f0f;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Bebas Neue", cursive;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #bf7e84;
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(78, 1, 25, 0.3) 0px,
+    rgba(78, 1, 25, 0.3) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  margin: 0;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 25s linear infinite;
 }
