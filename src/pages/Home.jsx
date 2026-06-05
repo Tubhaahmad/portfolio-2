@@ -112,8 +112,8 @@ function Home() {
             color: "#e8d5c4",
           }}
         >
-          I write clean code and build experiences that feel as good as they
-          look.
+          Frontend development is where design meets code - and I love living in
+          that space.
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
@@ -122,10 +122,10 @@ function Home() {
               className="text-sm leading-relaxed mb-8"
               style={{ fontFamily: "var(--font-body)", color: "#e8d5c4" }}
             >
-              I care about the details that make a website feel alive - the
-              transitions, the typography, the little things most people don't
-              notice but everyone feels. I believe great frontend work lives at
-              the intersection of good design and user-friendly experiences.
+              Hi, I'm Toubha, 24 years old and based in Norway. I'm a frontend
+              development student who loves turning ideas into real, working
+              websites. I care about writing clean code, building things that
+              are easy to use, and making sure the end result looks good too.
             </p>
             <p
               className="text-xs tracking-widest uppercase mb-3"
@@ -225,7 +225,7 @@ function Home() {
                   href="https://github.com/Tubhaahmad"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xs tracking-widest uppercase inline-block w-fit hover:opacity-60 transition-opacity"
+                  className="text-xs tracking-widest uppercase inline-flex items-center gap-2 w-fit hover:opacity-60 transition-opacity"
                   style={{
                     fontFamily: "var(--font-body)",
                     color: "#e8d5c4",
@@ -233,11 +233,16 @@ function Home() {
                     paddingBottom: "2px",
                   }}
                 >
+                  <i
+                    className="devicon-github-original"
+                    style={{ fontSize: "16px" }}
+                  />
                   GitHub
                 </a>
+
                 <a
                   href="mailto:toubha.ah@hotmail.com"
-                  className="text-xs tracking-widest uppercase inline-block w-fit hover:opacity-60 transition-opacity"
+                  className="text-xs tracking-widest uppercase inline-flex items-center gap-2 w-fit hover:opacity-60 transition-opacity"
                   style={{
                     fontFamily: "var(--font-body)",
                     color: "#e8d5c4",
@@ -245,6 +250,17 @@ function Home() {
                     paddingBottom: "2px",
                   }}
                 >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m2 7 10 7 10-7" />
+                  </svg>
                   Email
                 </a>
               </div>
@@ -253,13 +269,13 @@ function Home() {
         </div>
       </section>
       {/* Projects Section */}
-      <section id="projects" className="py-24 px-8 md:px-16">
+      <section id="projects" className="py-24 px-8 md:px-16 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="mb-16 tracking-tight uppercase"
+          className="mb-16 tracking-tight uppercase text-center"
           style={{
             fontFamily: "Helvetica Neue, Helvetica, Arial, sans-serif",
             fontWeight: 900,
